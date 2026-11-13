@@ -13,7 +13,7 @@ import {
   type ParentProps,
 } from "solid-js"
 import { Keymap } from "../context/keymap"
-import { ThemeContextProvider, useTheme } from "../context/theme"
+import { ThemeContextProvider, useTheme, useThemes } from "../context/theme"
 import { InputRenderable, MouseButton, Renderable, RGBA, TextAttributes } from "@opentui/core"
 import { createStore } from "solid-js/store"
 import { useToast } from "./toast"
@@ -41,8 +41,11 @@ export function Dialog(
   }>,
 ) {
   const dimensions = useTerminalDimensions()
+  const themes = useThemes()
   const theme = useTheme().surface("dialog")
   const renderer = useRenderer()
+  // The dragoncode skin frames dialogs as single-line message windows.
+  const framed = () => themes.selected === "dragoncode"
 
   let dismiss = false
   return (
@@ -80,6 +83,8 @@ export function Dialog(
           width={dialogWidth(props.size ?? "medium")}
           maxWidth={dimensions().width - 2}
           backgroundColor={theme.background.base}
+          border={framed() ? true : undefined}
+          borderColor={theme.border.base}
           paddingTop={1}
         >
           {props.children}

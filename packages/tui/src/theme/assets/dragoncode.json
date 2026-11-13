@@ -1,0 +1,233 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "deep": "#000000",
+    "window": "#000078",
+    "windowLight": "#1d1da6",
+    "ink": "#f8f8f8",
+    "shadow": "#9a9ad0",
+    "gold": "#ffd800",
+    "goldDeep": "#c78f00",
+    "leaf": "#3fd13f",
+    "leafDeep": "#1e7d1e",
+    "sky": "#3fa9f5",
+    "skyDeep": "#0b5fa5",
+    "flame": "#ff8c42",
+    "flameDeep": "#c25200",
+    "blood": "#ff4040",
+    "bloodDeep": "#c81e1e",
+    "violet": "#b79aff",
+    "violetDeep": "#6a3ec9",
+    "paper": "#f2ecd9",
+    "paperPanel": "#e6dec6",
+    "paperElement": "#d9cfb0",
+    "inkOnPaper": "#1c1c34",
+    "mutedOnPaper": "#66668c",
+    "addedBg": "#003c14",
+    "removedBg": "#3c0606",
+    "addedBgLight": "#dcf2dc",
+    "removedBgLight": "#f8dcdc"
+  },
+  "theme": {
+    "primary": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "secondary": {
+      "dark": "violet",
+      "light": "violetDeep"
+    },
+    "accent": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "error": {
+      "dark": "blood",
+      "light": "bloodDeep"
+    },
+    "warning": {
+      "dark": "flame",
+      "light": "flameDeep"
+    },
+    "success": {
+      "dark": "leaf",
+      "light": "leafDeep"
+    },
+    "info": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "text": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    },
+    "textMuted": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "background": {
+      "dark": "deep",
+      "light": "paper"
+    },
+    "backgroundPanel": {
+      "dark": "window",
+      "light": "paperPanel"
+    },
+    "backgroundElement": {
+      "dark": "windowLight",
+      "light": "paperElement"
+    },
+    "border": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    },
+    "borderActive": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "borderSubtle": {
+      "dark": "windowLight",
+      "light": "paperElement"
+    },
+    "diffAdded": {
+      "dark": "leaf",
+      "light": "leafDeep"
+    },
+    "diffRemoved": {
+      "dark": "blood",
+      "light": "bloodDeep"
+    },
+    "diffContext": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "diffHunkHeader": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "diffHighlightAdded": {
+      "dark": "leaf",
+      "light": "leafDeep"
+    },
+    "diffHighlightRemoved": {
+      "dark": "blood",
+      "light": "bloodDeep"
+    },
+    "diffAddedBg": {
+      "dark": "addedBg",
+      "light": "addedBgLight"
+    },
+    "diffRemovedBg": {
+      "dark": "removedBg",
+      "light": "removedBgLight"
+    },
+    "diffContextBg": {
+      "dark": "window",
+      "light": "paperPanel"
+    },
+    "diffLineNumber": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "addedBg",
+      "light": "addedBgLight"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "removedBg",
+      "light": "removedBgLight"
+    },
+    "markdownText": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    },
+    "markdownHeading": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "markdownLink": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "markdownLinkText": {
+      "dark": "violet",
+      "light": "violetDeep"
+    },
+    "markdownCode": {
+      "dark": "leaf",
+      "light": "leafDeep"
+    },
+    "markdownBlockQuote": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "markdownEmph": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "markdownStrong": {
+      "dark": "flame",
+      "light": "flameDeep"
+    },
+    "markdownHorizontalRule": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "markdownListItem": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "markdownListEnumeration": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "markdownImage": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "markdownImageText": {
+      "dark": "violet",
+      "light": "violetDeep"
+    },
+    "markdownCodeBlock": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    },
+    "syntaxComment": {
+      "dark": "shadow",
+      "light": "mutedOnPaper"
+    },
+    "syntaxKeyword": {
+      "dark": "violet",
+      "light": "violetDeep"
+    },
+    "syntaxFunction": {
+      "dark": "leaf",
+      "light": "leafDeep"
+    },
+    "syntaxVariable": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    },
+    "syntaxString": {
+      "dark": "gold",
+      "light": "goldDeep"
+    },
+    "syntaxNumber": {
+      "dark": "flame",
+      "light": "flameDeep"
+    },
+    "syntaxType": {
+      "dark": "sky",
+      "light": "skyDeep"
+    },
+    "syntaxOperator": {
+      "dark": "violet",
+      "light": "violetDeep"
+    },
+    "syntaxPunctuation": {
+      "dark": "ink",
+      "light": "inkOnPaper"
+    }
+  }
+}
