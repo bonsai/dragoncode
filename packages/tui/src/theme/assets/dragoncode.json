@@ -1,7 +1,7 @@
 {
   "$schema": "https://opencode.ai/theme.json",
   "defs": {
-    "deep": "#000038",
+    "deep": "#000000",
     "window": "#000078",
     "windowLight": "#1d1da6",
     "ink": "#f8f8f8",
